@@ -2,6 +2,7 @@
 #include <SDL2/SDL_image.h>
 #include <iostream>
 
+#include "Entity.hpp"
 #include "RenderWindow.hpp"
 
 RenderWindow::RenderWindow(const char *p_title, int p_w, int p_h)
@@ -34,27 +35,26 @@ void RenderWindow::CleanUp()
 {
     SDL_DestroyWindow(window);
 }
-
 void RenderWindow::Clear()
 {
     SDL_RenderClear(renderer);
 }
 
-void RenderWindow::Render(SDL_Texture *p_tex)
+void RenderWindow::Render(Entity &p_entity)
 {
     SDL_Rect src;
-    src.x = 0;
-    src.y = 0;
-    src.w = 600;
-    src.h = 600;
+
+    src.x = p_entity.GetCurrentFrame().x;
+    src.y = p_entity.GetCurrentFrame().y;
+    src.w = p_entity.GetCurrentFrame().w;
 
     SDL_Rect dst;
-    dst.x = 0;
-    dst.y = 0;
-    dst.w = 64;
-    dst.h = 64;
+    dst.x = p_entity.GetPos().x;
+    dst.y = p_entity.GetPos().y;
+    dst.w = p_entity.GetCurrentFrame().w * 0.5;
+    dst.h = p_entity.GetCurrentFrame().h * 0.5;
 
-    SDL_RenderCopy(renderer, p_tex, &src, &dst);
+    SDL_RenderCopy(renderer, p_entity.GetTex(), &src, &dst);
 }
 
 void RenderWindow::Display()
