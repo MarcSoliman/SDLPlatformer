@@ -6,6 +6,7 @@
 #include "RenderWindow.hpp"
 #include "Entity.hpp"
 #include "Math.hpp"
+#include "Utils.hpp"
 
 int main(int argc, char *args[])
 {
@@ -33,14 +34,32 @@ int main(int argc, char *args[])
 	bool gameRunning = true;
 
 	SDL_Event event;
+	const float timeStep = 0.01f;
+	float accumulator = 0.0f;
+	float currentTime = utils::hireTimeInSeconds();
 
 	while (gameRunning)
 	{
-		while (SDL_PollEvent(&event))
+		float newTime = utils::hireTimeInSeconds();
+		float frameTime = newTime - currentTime;
+
+		currentTime = newTime;
+
+		accumulator += frameTime;
+
+		while (accumulator >= timeStep)
 		{
-			if (event.type == SDL_QUIT)
-				gameRunning = false;
+			while (SDL_PollEvent(&event))
+			{
+				if (event.type == SDL_QUIT)
+					gameRunning = false;
+			}
+
+			accumulator -= timeStep;
 		}
+
+		const float alpha = accumulator / timeStep;
+
 		window.Clear();
 		for (Entity &platforms : platformEntityVector)
 		{
