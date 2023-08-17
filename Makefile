@@ -1,7 +1,7 @@
 # Variables
 CXX = g++
 CXXFLAGS = -std=c++14 -Wall -m64 -I include -I C:/SDL2-w64/include
-LDFLAGS = -L C:/SDL2-w64/lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_image
+LDFLAGS = -L C:/SDL2-w64/lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -L C:/OpenGL-GLEW/lib/Release/x64 -lglew32 -lglew32s -lopengl32
 SOURCES = $(wildcard src/*.cpp)
 OBJECTS = $(SOURCES:.cpp=.o)
 

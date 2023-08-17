@@ -23,13 +23,11 @@ int main(int argc, char *args[])
 
 	RenderWindow window("Game v1.0", 1280, 720);
 
-	SDL_Texture *playerTexture = window.LoadTexture("res/gfx/mario.png");
-	SDL_Texture *platformTexture0 = window.LoadTexture("res/gfx/platform0.png");
+	GLuint playerTexture = window.LoadTexture("res/gfx/mario.png");		   // Changed type to GLuint
+	GLuint platformTexture0 = window.LoadTexture("res/gfx/platform0.png"); // Changed type to GLuint
 
-	Entity player(Vector2f(0, 0), playerTexture);
-
-	std::vector<Entity> platformEntityVector = {Entity(Vector2f(200, 5), platformTexture0),
-												Entity(Vector2f(400, 5), platformTexture0)};
+	std::vector<Entity> platformEntityVector = {Entity(platformTexture0, Vector2f(0.0f, 60.0f)),
+												Entity(platformTexture0, Vector2f(100.0f, 60.0f))};
 
 	bool gameRunning = true;
 
@@ -40,6 +38,9 @@ int main(int argc, char *args[])
 
 	while (gameRunning)
 	{
+
+		Entity player(playerTexture);
+		player.SetScale(Vector2f(0.5, 1));
 		float newTime = utils::hireTimeInSeconds();
 		float frameTime = newTime - currentTime;
 
