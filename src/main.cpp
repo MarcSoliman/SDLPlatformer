@@ -36,11 +36,14 @@ int main(int argc, char *args[])
 	float accumulator = 0.0f;
 	float currentTime = utils::hireTimeInSeconds();
 
+	Entity player(playerTexture);
+	player.SetScale(Vector2f(0.5, 1));
+
+	int X = 0;
+
 	while (gameRunning)
 	{
 
-		Entity player(playerTexture);
-		player.SetScale(Vector2f(0.5, 1));
 		float newTime = utils::hireTimeInSeconds();
 		float frameTime = newTime - currentTime;
 

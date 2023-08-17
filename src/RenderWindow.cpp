@@ -18,6 +18,9 @@ void main()
 {
     gl_Position = vec4(inPos, 0.0, 1.0);
     texCoord = inTexCoord;
+
+
+
 }
 )";
 
@@ -32,6 +35,26 @@ uniform sampler2D spriteTexture;
 void main()
 {
     fragColor = texture(spriteTexture, texCoord);
+
+    if(fragColor.a < 0.1)
+    {
+        discard;
+    }
+
+
+
+
+    //sunset
+    //fragColor.r = fragColor.r * 0.393 + fragColor.g * 0.769 + fragColor.b * 0.189;
+
+    //night time
+    // fragColor.r = fragColor.r * 0.2 + fragColor.g * 0.686 + fragColor.b * 0.168;
+    // fragColor.g = fragColor.r * 0.4 + fragColor.g * 0.534 + fragColor.b * 0.131;
+    // fragColor.b = fragColor.r * 0.6 + fragColor.g * 0.769 + fragColor.b * 0.589;
+
+
+
+
 }
 )";
 
