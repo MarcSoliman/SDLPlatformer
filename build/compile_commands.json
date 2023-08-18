@@ -1,0 +1,50 @@
+[
+{
+  "directory": "D:/ProgrammingSandbox/SDLPlatformer/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -IC:/SDL2/include -ID:/ProgrammingSandbox/SDLPlatformer/include -O3 -DNDEBUG -O3 -std=gnu++14 -Wall -m64 -o CMakeFiles\\SDLPlatformer_debug.dir\\src\\Entity.cpp.obj -c D:\\ProgrammingSandbox\\SDLPlatformer\\src\\Entity.cpp",
+  "file": "D:\\ProgrammingSandbox\\SDLPlatformer\\src\\Entity.cpp",
+  "output": "CMakeFiles\\SDLPlatformer_debug.dir\\src\\Entity.cpp.obj"
+},
+{
+  "directory": "D:/ProgrammingSandbox/SDLPlatformer/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -IC:/SDL2/include -ID:/ProgrammingSandbox/SDLPlatformer/include -O3 -DNDEBUG -O3 -std=gnu++14 -Wall -m64 -o CMakeFiles\\SDLPlatformer_debug.dir\\src\\Math.cpp.obj -c D:\\ProgrammingSandbox\\SDLPlatformer\\src\\Math.cpp",
+  "file": "D:\\ProgrammingSandbox\\SDLPlatformer\\src\\Math.cpp",
+  "output": "CMakeFiles\\SDLPlatformer_debug.dir\\src\\Math.cpp.obj"
+},
+{
+  "directory": "D:/ProgrammingSandbox/SDLPlatformer/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -IC:/SDL2/include -ID:/ProgrammingSandbox/SDLPlatformer/include -O3 -DNDEBUG -O3 -std=gnu++14 -Wall -m64 -o CMakeFiles\\SDLPlatformer_debug.dir\\src\\RenderWindow.cpp.obj -c D:\\ProgrammingSandbox\\SDLPlatformer\\src\\RenderWindow.cpp",
+  "file": "D:\\ProgrammingSandbox\\SDLPlatformer\\src\\RenderWindow.cpp",
+  "output": "CMakeFiles\\SDLPlatformer_debug.dir\\src\\RenderWindow.cpp.obj"
+},
+{
+  "directory": "D:/ProgrammingSandbox/SDLPlatformer/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -IC:/SDL2/include -ID:/ProgrammingSandbox/SDLPlatformer/include -O3 -DNDEBUG -O3 -std=gnu++14 -Wall -m64 -o CMakeFiles\\SDLPlatformer_debug.dir\\src\\main.cpp.obj -c D:\\ProgrammingSandbox\\SDLPlatformer\\src\\main.cpp",
+  "file": "D:\\ProgrammingSandbox\\SDLPlatformer\\src\\main.cpp",
+  "output": "CMakeFiles\\SDLPlatformer_debug.dir\\src\\main.cpp.obj"
+},
+{
+  "directory": "D:/ProgrammingSandbox/SDLPlatformer/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -IC:/SDL2/include -ID:/ProgrammingSandbox/SDLPlatformer/include -O3 -DNDEBUG -O3 -std=gnu++14 -Wall -m64 -o CMakeFiles\\SDLPlatformer_release.dir\\src\\Entity.cpp.obj -c D:\\ProgrammingSandbox\\SDLPlatformer\\src\\Entity.cpp",
+  "file": "D:\\ProgrammingSandbox\\SDLPlatformer\\src\\Entity.cpp",
+  "output": "CMakeFiles\\SDLPlatformer_release.dir\\src\\Entity.cpp.obj"
+},
+{
+  "directory": "D:/ProgrammingSandbox/SDLPlatformer/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -IC:/SDL2/include -ID:/ProgrammingSandbox/SDLPlatformer/include -O3 -DNDEBUG -O3 -std=gnu++14 -Wall -m64 -o CMakeFiles\\SDLPlatformer_release.dir\\src\\Math.cpp.obj -c D:\\ProgrammingSandbox\\SDLPlatformer\\src\\Math.cpp",
+  "file": "D:\\ProgrammingSandbox\\SDLPlatformer\\src\\Math.cpp",
+  "output": "CMakeFiles\\SDLPlatformer_release.dir\\src\\Math.cpp.obj"
+},
+{
+  "directory": "D:/ProgrammingSandbox/SDLPlatformer/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -IC:/SDL2/include -ID:/ProgrammingSandbox/SDLPlatformer/include -O3 -DNDEBUG -O3 -std=gnu++14 -Wall -m64 -o CMakeFiles\\SDLPlatformer_release.dir\\src\\RenderWindow.cpp.obj -c D:\\ProgrammingSandbox\\SDLPlatformer\\src\\RenderWindow.cpp",
+  "file": "D:\\ProgrammingSandbox\\SDLPlatformer\\src\\RenderWindow.cpp",
+  "output": "CMakeFiles\\SDLPlatformer_release.dir\\src\\RenderWindow.cpp.obj"
+},
+{
+  "directory": "D:/ProgrammingSandbox/SDLPlatformer/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -IC:/SDL2/include -ID:/ProgrammingSandbox/SDLPlatformer/include -O3 -DNDEBUG -O3 -std=gnu++14 -Wall -m64 -o CMakeFiles\\SDLPlatformer_release.dir\\src\\main.cpp.obj -c D:\\ProgrammingSandbox\\SDLPlatformer\\src\\main.cpp",
+  "file": "D:\\ProgrammingSandbox\\SDLPlatformer\\src\\main.cpp",
+  "output": "CMakeFiles\\SDLPlatformer_release.dir\\src\\main.cpp.obj"
+}
+]

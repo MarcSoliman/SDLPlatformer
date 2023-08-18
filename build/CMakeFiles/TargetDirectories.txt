@@ -1,0 +1,4 @@
+D:/ProgrammingSandbox/SDLPlatformer/build/CMakeFiles/SDLPlatformer_debug.dir
+D:/ProgrammingSandbox/SDLPlatformer/build/CMakeFiles/SDLPlatformer_release.dir
+D:/ProgrammingSandbox/SDLPlatformer/build/CMakeFiles/edit_cache.dir
+D:/ProgrammingSandbox/SDLPlatformer/build/CMakeFiles/rebuild_cache.dir

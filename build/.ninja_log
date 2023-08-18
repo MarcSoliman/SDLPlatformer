@@ -1,0 +1,11 @@
+# ninja log v5
+15	142	7140931783834937	CMakeFiles/SDLPlatformer_debug.dir/src/Math.cpp.obj	9af52a0a5efd61af
+13	334	7140931785758796	CMakeFiles/SDLPlatformer_debug.dir/src/Entity.cpp.obj	291a5b391de564cb
+16	342	7140931785838797	CMakeFiles/SDLPlatformer_debug.dir/src/RenderWindow.cpp.obj	cb98b5ced9caa3ea
+21	359	7140932031606509	CMakeFiles/SDLPlatformer_release.dir/src/main.cpp.obj	72c513e637957f04
+18	369	7140931786106993	CMakeFiles/SDLPlatformer_debug.dir/src/main.cpp.obj	43308ba5998f122c
+369	664	7140931789035288	bin/debug/SDLPlatformer_debug.exe	bc73d23754a1dcff
+2	286	7140933418465940	bin/release/SDLPlatformer_release.exe	15c94d9c0766d47
+18	134	7140932029356247	CMakeFiles/SDLPlatformer_release.dir/src/Math.cpp.obj	a72ff9318616252f
+15	321	7140932031220524	CMakeFiles/SDLPlatformer_release.dir/src/Entity.cpp.obj	b8bed56ae5041fa1
+19	358	7140932031586513	CMakeFiles/SDLPlatformer_release.dir/src/RenderWindow.cpp.obj	5eb207f6fcfd59b5

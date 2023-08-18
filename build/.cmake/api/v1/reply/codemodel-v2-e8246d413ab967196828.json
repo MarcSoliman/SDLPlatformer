@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SDL_OpenGL_Project",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SDLPlatformer_debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDLPlatformer_debug-Release-f4d0a03912d3bf084b04.json",
+					"name" : "SDLPlatformer_debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDLPlatformer_release::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDLPlatformer_release-Release-e65692cb47d29487c8fa.json",
+					"name" : "SDLPlatformer_release",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/ProgrammingSandbox/SDLPlatformer/build",
+		"source" : "D:/ProgrammingSandbox/SDLPlatformer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
